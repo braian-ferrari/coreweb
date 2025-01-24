@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+
+
+}
+
+.menu {
+  width: auto;
+  display: flex;
+  height: 140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: auto;
+  background-color: black;
+
+}
+
+.logo {
+  width: 200px;
+  margin-left: 60px;
+
+}
+
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: start;
+}
+
+p {
+  color: white;
+}
+
+.TituloHome {
+  width: 50%;
+  margin: 7%;
+}
+
+.containerSec1 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.imagenHome {
+  width: 90%;
+  height: auto;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-left: 7%;
+  
+}
+
+.sectionDos {
+  display: flex;
+  background-color: black;
+}
+.sectionTres{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 50px;
+  background-color: black;
+}
+.descripcion{
+  text-align: start;
+  font-size: x-large;
+  width: 70%;
+  margin-left: 7%;
+}
+.botonDesc{
+  margin-top: 1%;
+  margin-left: 7%;
+  margin-bottom: 8%;
+  color: black;
+  background-color: white;
+  width: 40%;
+  border-radius: 80px;
+  font-size: large;
+  
+}
+.botonDesc:hover{
+  background-color: blue;
+  color: white;
+}
+
+.sectionCuatro{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+.logoResting{
+  width: 200px;
+  margin-left: 15%;
+  margin-bottom: 12%;
+  
+}
+.logoMapu{
+  width: 200px;
+  margin-left: 15%;
+  margin-bottom: 12%;
+}
+.logoSakura{
+  width: 200px;
+  margin-left: 15%;
+  margin-bottom: 12%;
+  height: 250px;
+}
+.subClientes{
+  width: 30%;
+  font-size: 40px;
+  margin-left: 34.7%;
+  margin-top: 10%;
+}
+.botonTrabajos{
+  margin-top: 3%;
+  margin-bottom: 15%;
+  background-color: black;
+  color: white;
+  border-radius: 80px;
+  width: 30%;
+  height: auto;
+}
+.botonTrabajos:hover{
+  background-color: blue;
+  color: white;
+}
+.sectionCinco{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.botonContactoHome{
+  margin-left: 40%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  background-color: black;
+  color: white;
+  border-radius: 80px;
+  width: 15%;
+  height: auto;
+}
+.botonContactoHome:hover{
+  background-color: blue;
+  color: white;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+.iconos{
+ font-size: large;
+ margin-top: 3%;
+ margin-left: 14%;
+ margin-bottom: 5%;
+ 
+}
+.listaFooter{
+  font-size: large;
+ margin-top: 3%;
+ margin-bottom: 5%;
+}
+.subTrabajo{
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
