@@ -7,6 +7,9 @@
 
 
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .menu {
   width: auto;
@@ -139,7 +142,7 @@ p {
   color: white;
 }
 .botonContactoHome{
-  margin-left: 40%;
+  margin-left: 39.8%;
   margin-top: 3%;
   margin-bottom: 10%;
   background-color: black;
@@ -174,6 +177,18 @@ footer{
 }
 .subTrabajo{
   margin-left: 35%;
-  margin-top: 10%;
+  margin-top: 12%;
   margin-bottom: 5%;
+}
+/* Estado inicial fuera de la vista */
+.scroll-element {
+  opacity: 0;
+  transform: translateY(50px); /* Baja el elemento */
+  transition: all 0.5s ease; /* Duración y tipo de transición */
+}
+
+/* Estado final cuando es visible */
+.scroll-element.show {
+  opacity: 1;
+  transform: translateY(0); /* Restaura su posición */
 }
