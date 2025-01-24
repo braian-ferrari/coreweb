@@ -148,7 +148,7 @@ p {
   background-color: black;
   color: white;
   border-radius: 80px;
-  width: 15%;
+  width: 25%;
   height: auto;
 }
 .botonContactoHome:hover{
@@ -194,11 +194,52 @@ footer{
 }
 @media screen and (max-width: 768px) {
   /* Estilos para teléfonos celulares */
-  body {
+  h1 {
+    font-size: 25px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  
+  .descripcion{
     font-size: 14px;
+  }
+  .subClientes{
+    font-size: 25px;
+  }
+  .botonDesc{
+    font-size: 14px;
+  }
+  .botonTrabajos{
+    font-size: 14px;
+  }
+  .botonContactoHome{
+    font-size: 14px;
+    
+  }
+  .subTrabajo{
+    width: 45%;
+  }
+  .iconos{
+    font-size: 15px;
+  }
+  .listaFooter{
+    font-size: 15px;
+
+    margin-left: 15%;
   }
 
   .container {
     padding: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* Estilos para teléfonos pequeños */
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 5px;
   }
 }
