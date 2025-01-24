@@ -192,3 +192,13 @@ footer{
   opacity: 1;
   transform: translateY(0); /* Restaura su posición */
 }
+@media screen and (max-width: 768px) {
+  /* Estilos para teléfonos celulares */
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
