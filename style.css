@@ -360,10 +360,11 @@ footer{
   }
   .iconos{
     font-size: 15px;
+    margin-left: 35%;
   }
   .listaFooter{
     font-size: 15px;
-    margin-left: 14%;
+    margin-left: 35%;
   }
   .logoResting{
     width: 150px;
@@ -380,7 +381,30 @@ footer{
 
     margin-left: 28%;
   }
-
+  .inputNombre{
+    margin-left: 25%;
+  }
+  .labelNombre{
+    margin-left: 25%;
+  }
+  .labelApellido{
+    margin-left: 25%;
+  }
+.inputApellido{
+  margin-left: 25%;
+}
+.TituloContac{
+  width: 80%;
+  font-size: 25px;
+  margin-left: 15%;
+}
+.tituloServ{
+  margin-left: 20%;
+}
+.subContactoServ{
+  width: 80%;
+  margin-left: 15%;
+}
 
   .container {
     padding: 10px;
