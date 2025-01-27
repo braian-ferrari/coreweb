@@ -225,14 +225,17 @@ footer{
 }
 .secDosServ{
   display: flex;
-  background-color: black;
+ color: black;
 }
 .subTitServ{
-  color: white;
+  color: black;
   margin-bottom: 5%;
-  margin-top: 5%;
+  margin-top: 15%;
 }
-
+.DescServ{
+  color: black;
+  margin-bottom: 15%;
+}
 
 .imagenServ{
   width: 90%;
@@ -250,13 +253,13 @@ footer{
 }
 .secCuatroServ{
   display: flex;
-  background-color: black;
+ 
 }
 .subContactoServ{
   width: 30%;
   margin-left: 35%;
   margin-top: 10%;
-  color: white;
+  color: ;
 }
 .botonContactoServ{
   margin-left: 35%;

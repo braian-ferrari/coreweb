@@ -13,7 +13,7 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 }, {
-  threshold: 0.1, // El elemento es visible si al menos el 10% está en el viewport
+  threshold: 0.2, // El elemento es visible si al menos el 10% está en el viewport
 });
 
 // Observa cada elemento
