@@ -54,40 +54,36 @@
                 </div>
             </div>
         </section>
-        <section class="secDosContac scroll-element">
+        <section>
+            <form action="https://formspree.io/f/xdkagzej" method="POST"  class="secDosContac scroll-element"> 
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-lg-6 scroll-element">
                         <div class="mb-5">
-                            <label for="" class="form-label labelNombre">Nombres</label>
-                            <input type="" class="form-control inputNombre" id="">
-                                
+                            <label  for="nombre" class="form-label labelNombre">Nombres</label>
+                            <input  type="text" name="nombre" class="form-control inputNombre" id="nombre" required>    
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-6 scroll-element">
                         <div class="mb-5">
-                            <label for="" class="form-label labelApellido">Apellidos</label>
-                            <input type="" class="form-control inputApellido" id=""
-                                aria-describedby="">
+                            <label for="apellido" class="form-label labelApellido">Apellidos</label>
+                            <input type="text" name="apellido" class="form-control inputApellido" id="apellido" required>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-lg-12 scroll-element">
                         <div class="mb-5">
-                            <label for="exampleInputEmail1" class="form-label labels">Correo electronico</label>
-                            <input type="email" class="form-control inputsContact" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            
+                            <label  for="correo" class="form-label labels">Correo electronico</label>
+                            <input type="email" name="correo" class="form-control inputsContact" id="correo" required>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-lg-12 scroll-element">
                         <div class="mb-5">
-                            <label for="exampleInputEmail1" class="form-label labels">Asunto</label>
-                            <input type="email" class="form-control inputsContact" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                            <label  for="asunto" class="form-label labels">Asunto</label>
+                            <input  type="text" name="asunto" class="form-control inputsContact" id="asunto" required>
                            
                         </div>
                     </div>
@@ -95,13 +91,14 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-lg-12 scroll-element">
                         <div class="mb-5">
-                            <label for="exampleFormControlTextarea1" class="form-label labels">Mensaje</label>
-                            <textarea class="form-control inputsContact" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            <button type="button" class="btn btn-primary botonContactoContac">Enviar</button>
+                            <label for="mensaje" class="form-label labels">Mensaje</label>
+                            <textarea name="mensaje" class="form-control inputsContact" id="mensaje" rows="3" required></textarea>
+                            <button type="submit" class="btn btn-primary botonContactoContac">Enviar</button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div></form>
+           
         </section>
         <footer class="scroll-element">
             <div class="container-fluid">
